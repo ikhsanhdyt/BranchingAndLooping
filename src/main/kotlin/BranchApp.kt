@@ -1,6 +1,6 @@
 import java.lang.NumberFormatException
 
-class App {
+class BranchApp {
     var studentScore: Int = 0
     fun run() {
         printHeader()
@@ -37,8 +37,8 @@ class App {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            val app = App()
-            app.run()
+            val branchApp = BranchApp()
+            branchApp.run()
         }
     }
 }
